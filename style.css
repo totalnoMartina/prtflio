@@ -1,0 +1,105 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: rgba(6, 6, 63, 0.877);
+    padding: 20px 50px;
+    color: white;
+}
+
+.navTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+input {
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.searchIcon {
+    margin-left: 2px;
+}
+
+.searchButton {
+    border: none;
+}
+
+.searchButton::placeholder {
+    color: rgb(115, 98, 76);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    background-color: rosybrown;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.navBottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.menuItem {
+    margin-right: 20px;
+    cursor: pointer;
+    padding-top: 2px;
+}
+
+.slider {
+    background: url('https://cdn.shopify.com/s/files/1/0673/7890/5386/products/WhatsAppImage2022-11-07at20.03.48_3.jpg?v=1668887302&width=1100');
+    clip-path: polygon(20% 0%, 80% 0%, 100% 20%, 100% 80%, 100% 100%, 0 100%, 0% 80%, 0 0);
+}
+
+.sliderWrap {
+    display: flex;
+    width: 500vw;
+}
+
+.sliderItem {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.sliderTitle {
+    position: absolute;
+    right: 5em;
+    top: 0;
+    color: brown;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.slideBg {
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    position: absolute;
+    color: rgba(184, 135, 11, 0.682);
+}
+
+
+.sliderPrice {
+    position: absolute;
+    left: 5em;
+    top: 0;
+    color: brown;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    border: 2px solid rgba(2, 2, 35, 0.24);
+    border-radius: 10%;
+}
